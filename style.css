@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    font-family: "Mulish", sans-serif;
+    height: 100vh;
+}
+.wrapper{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 56px 180px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 160px;
+    height: 40px;
+}
+.navbar-nav{
+    display: flex;
+}
+.navbar-nav li a{
+    font-size: 18px;
+    line-height: 23px;
+    color: #1f1534;
+    opacity: 0.5;
+    margin: 0 20px;
+}
+.navbar-nav li a.active{
+    font-weight: bold;
+    opacity: 1;
+    color: black;
+}
+.element{
+    position: absolute;
+    top: 160px;
+    left: 0;
+    width: 132px;
+    height: 115px;
+}
+
+.container-items{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.container-items .header-left{
+    margin-right: 110px;
+}
+.container-items .container-left h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 25px;
+    width: 430px;
+    color: #000000;
+}
+.container-items .container-left p{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7d7987;
+    margin-bottom: 45px;
+    width: 440px;
+}
+.btn-primary{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    padding: 15px 40px;
+    color: #ffffff;
+    background: #458ff6;
+    border-radius: 55px;
+}
