@@ -19,27 +19,12 @@ body{
     margin: 0 auto;
     padding: 56px 180px;
 }
-.header{
-    /* display: flex; */
-    justify-content: space-between;
-    /* align-items: center; */
-}
-.navbar-nav li a{
-    font-size: 18px;
-    line-height: 23px;
-    color: #1f1534;
-    opacity: 0.5;
-    margin: 0 20px;
-}
-.navbar-nav li a.active{
-    font-weight: bold;
-    opacity: 1;
-    color: black;
-}
 
-/* .element{
+
+
+.element{
     position: absolute;
-    top: 160px;
+    /* top: 160px; */
     left:0;
     width: 132px;
     height: 115px;
@@ -48,7 +33,7 @@ body{
 
       
       }
-  */
+ 
 .container h1{
     font-weight: bold;
     font-size: 48px;
@@ -56,7 +41,7 @@ body{
     color: #000000;
 }
 .container p{
-    font-weight: 300;
+    font-weight: 400;
     font-size: 21px;
     line-height: 32px;
     color: #7d7987;
@@ -79,12 +64,12 @@ body{
 .service-line{
     align-self: center;
 }
-.service-description{
+.service-description p{
     margin-top: 32px;
-    font-weight: 300;
+    font-weight: 400;
     color: #7d7987;
     text-align: center;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 30px;
 }
 .imgs{
@@ -94,16 +79,20 @@ body{
 
 .providers-description{
     color: #7D7987;
-    font-weight:300;
-    font-size: 18px;
+    font-weight:400;
+    font-size: 15px;
     max-width: 450px;
     max-height: 120px;
     line-height: 30px;
 }
 .apps p{
     color: #7D7987;
-    font-weight: 300;
-    font-size: 18px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.card p{
+    font-weight:400;
+    font-size: 15px;
 }
 .bg-primary-gradient {
     background: -o-linear-gradient(241.82deg, #67C3F3 9.05%, #5A98F2 76.74%);
@@ -114,6 +103,12 @@ body{
     border: 3px solid ;
   
 }
+.customers p{
+    color: #7D7987;
+    font-weight: 400;
+    font-size: 19px;
+}
+
 .img-dot{
     background-position:right top;
     background-size:auto;
@@ -121,3 +116,12 @@ body{
     margin-top:10px;
    
 }
+.articles p{
+    
+    font-weight: 400;
+    color: #7d7987;
+    font-size: 16px;
+    line-height: 25px;
+
+}
+
