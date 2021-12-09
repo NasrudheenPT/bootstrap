@@ -14,39 +14,6 @@ body{
     font-family: "Mulish", sans-serif;
     height: 100vh;
 }
-/* .wrapper{
-    max-width: 1600px;
-    margin: 0 auto;
-    padding: 56px 180px;
-} */
-
-
-
-/* .element{ */
-    /* position: absolute; */
-    /* top: 160px; */
-    /* left:0; */
-    /* width: 132px;
-    height: 115px; */
-    /* background-position:left;
-    background-size:auto; */
-
-      
-      /* } */
- 
-/* .container h1{ */
-    /* font-weight: bold;
-    font-size: 48px;
-    line-height: 56px;
-    color: #000000; */
-/* } */
-/* .container p{
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 32px;
-    color: #7d7987; */
-   
-/* } */
 
 .service{
     background: url("../bootstrap/images/Frame\ \(5\).svg") no-repeat top -185px left -6.18%;background-position:center left; background-size:auto;
@@ -78,9 +45,7 @@ body{
     height: 90px;
     
 }
-.container {
-    
-}
+
 
 /* .providers-description{
     color: #7D7987;
@@ -91,15 +56,10 @@ body{
     line-height: 30px;
 } */
 .apps .row{
-    /* color: #7D7987;
-    font-weight: 400;
-    font-size: 15px; */
+    
     align-items: center;
 }
-/* .card p{
-    font-weight:400;
-    font-size: 15px;
-} */
+
 .cards .row{
     row-gap: 12px;
 }
@@ -125,24 +85,3 @@ body{
     justify-content: center;
     padding-top: 70px;
 }
-/* .customers p{
-    color: #7D7987;
-    font-weight: 400;
-    font-size: 19px;
-} */
-
-/* .img-dot{
-    background-position:right top;
-    background-size:auto;
-    margin-left:-30px;
-    margin-top:10px;
-   
-} */
-/* .articles p{
-    font-weight: 400;
-    color: #7d7987;
-    font-size: 16px;
-    line-height: 25px;
-
-} */
-
