@@ -17,7 +17,7 @@ body{
 
 
 .service{
-    padding-top: 192px;
+    padding-top: 122px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,18 +33,6 @@ body{
 }
 
 
-
-
-/* .providers-description{
-    color: #7D7987;
-    font-weight:400;
-    font-size: 15px;
-    max-width: 450px;
-    max-height: 120px;
-    line-height: 30px;
-} */
-
-
 .bg-primary-gradient {
     background: -o-linear-gradient(241.82deg, #67C3F3 9.05%, #5A98F2 76.74%);
     background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
@@ -54,5 +42,5 @@ body{
     border: 3px solid #FFFFFF;
 }
 .article {
-    margin-top: 200px;
+    margin-top: 110px;
 }
