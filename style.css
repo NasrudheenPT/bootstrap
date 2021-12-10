@@ -15,36 +15,24 @@ body{
     height: 100vh;
 }
 
+
 .service{
-    background: url("../bootstrap/images/Frame\ \(5\).svg") no-repeat top -185px left -6.18%;background-position:center left; background-size:auto;
+    padding-top: 192px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-/* .service-title{
-    font-style: normal;
-    font-size: 36px;
-    line-height: 56px;
-    text-align: center;
-    margin: 0;
-} */
-
-
-.service-line{
+.rectangleline{
     align-self: center;
 }
-/* .service-description p{
-    margin-top: 32px;
-    font-weight: 400;
+.service-description{
+    font-weight: 300;
     color: #7d7987;
-    text-align: center;
-    font-size: 17px;
-    line-height: 30px; */
-/* } */
-.imgs{
-    height: 90px;
-    
+    font-size: 15px;
+    line-height: 30px;
 }
+
+
 
 
 /* .providers-description{
@@ -55,33 +43,16 @@ body{
     max-height: 120px;
     line-height: 30px;
 } */
-.apps .row{
-    
-    align-items: center;
-}
-
-.cards .row{
-    row-gap: 12px;
-}
-.providers .row{
-    align-items: center;
-}
 
 
 .bg-primary-gradient {
     background: -o-linear-gradient(241.82deg, #67C3F3 9.05%, #5A98F2 76.74%);
     background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
   }
-  .customer-img{
-    border-radius: 82px;
-    border: 3px solid ;
-  
+  .customer-image{
+    border-radius: 50%;
+    border: 3px solid #FFFFFF;
 }
-.service .row{
-    justify-content: center;
-}
-
-.article .row{
-    justify-content: center;
-    padding-top: 70px;
+.article {
+    margin-top: 200px;
 }
